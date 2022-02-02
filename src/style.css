@@ -395,7 +395,12 @@ footer p {
   }
 
   .header__nav--logo a {
+    color: #ec5242;
+    border: 1px solid #272a31;
+  }
+  .header__nav--logo a span {
     color: #272a31;
+    border: none;
   }
 
   .nav {
