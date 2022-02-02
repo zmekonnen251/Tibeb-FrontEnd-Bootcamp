@@ -25,7 +25,51 @@ a {
 }
 
 /* navbar and headline styles */
+.display-none {
+  display: none;
+}
+/* Style for mobile menu */
+.mobile-menu {
+  position: fixed;
+  z-index: 1;
+  background-color: #323232;
+  height: 100vh;
+  width: 100vw;
+  opacity: 0.96;
+}
 
+.mobile-nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  gap: 40px;
+  margin: 30px;
+  margin-top: 30px;
+}
+.mobile-nav li {
+  border-bottom: 2px solid #ec5242;
+  padding-bottom: 25px;
+  width: 40%;
+  text-align: center;
+}
+.mobile-nav li a {
+  color: #d3d3d3;
+  font-size: 40px;
+}
+.mobile-nav li:first-child {
+  border-bottom: none;
+  padding-bottom: 10px;
+}
+.x-icon {
+  font-size: 30px;
+  border: none;
+  color: #d3d3d3;
+  align-self: flex-end;
+  text-align: right;
+  justify-self: flex-end;
+  margin-left: 200px;
+}
 .header {
   position: relative;
   padding: 24px 24px;
@@ -367,6 +411,7 @@ footer p {
     margin: 0;
     padding: 10px;
     z-index: 2;
+    padding-right: 20px;
   }
 
   .back-mobile-head {
