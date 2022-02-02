@@ -13,24 +13,37 @@
     <title>Tibeb Frontend Bootcamp</title>
   </head>
   <body>
-    <header class="header">
-      <a class="hamburger" href="#" ><h2><i class="header__hamurger--menu-icon fas fa-bars"></i></h2></i></a>
-      <ul class="nav dn">
-        <li class="nav__link header__nav--logo">Tibeb</li>
-        <li class="nav__link">About</li>
-        <li class="nav__link">Program</li>
-        <li class="nav__link">Join</li>
-        <li class="nav__link">Sponsor</li>
-        <li class="nav__link">News</li>
+    <ul class="top-nav">
+        <li class="top-nav__facebook"><i class="fab fa-facebook-square"></i></li>
+        <li class="top-nav__twiter"><i class="fab fa-twitter-square"></i></li>
+        <li class="top-nav__English">English</li>
+        <li class="top-nav__my-page">My Page</li>
+        <li class="top-nav__logout">Logout</li>
       </ul>
 
+      <nav>
+        <h2 class="nav__link header__nav--logo dn">Tibeb</h2>
+      <ul class="nav dn">
+        <li class="nav__link"><a href="about.html">About</a></li>
+        <li class="nav__link"><a href="#">Program</a></li>
+        <li class="nav__link"><a href="#">Join</a></li>
+        <li class="nav__link"><a href="#">Sponsor</a></li>
+        <li class="nav__link"><a href="#">News</a></li>
+      </ul>
+      </nav>
+    <header class="header">
+      <img src="../assets/home-mobile.jpg" class="back-mobile-head" alt="background image mobile">
+      <img src="../assets/desktop-home.jpg" class="back-mobile-head" alt="background image desktop">
+      <a class="hamburger" href="#" ><h2><i class="header__hamurger--menu-icon fas fa-bars"></i></h2></i></a>
+      
+      
+
       <section class="headline">
-        <p class="headline__greeting">"Hello! Masterminds Worlds</p>
+        <p class="headline__greeting">"Hello! Sharing World"</p>
         <h1 class="headline__heading">Tibeb FrontEnd Bootcamp 2022</h1>
         <p class="headline__description">
           This is a website for a Bootcamp called Tibeb. The bootcamp is
-          organized by Microverse Alumni Zelalem G. Mekonnen and other top
-          software developers from Ethiopia and East Africa. The name Tibeb is
+          organized by Microverse Alumni Zelalem G. Mekonnen. The name Tibeb is
           Amharic word and its meaning is Wisdom.
         </p>
         <p class="headline__program-time">
@@ -44,16 +57,7 @@
     <main class="curriculum">
       <h2 class="curriculum__heading">Main Program</h2>
       <div class="heading--border"></div>
-      <div class="curriculum__module">
-        <ul class="module">
-          <li class="module__icon"><img src="https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/48/000000/external-html-5-is-a-software-solution-stack-that-defines-the-properties-and-behaviors-of-web-page-logo-shadow-tal-revivo.png"/></li>
-          <li class="module__title">Introductory courses</li>
-          <li class="module__description">
-            This milestone project allows learners to explore their skills 
-          </li>
-        </ul>
-      </div>
-
+      <div>
       <div class="curriculum__module">
         <ul class="module">
           <li class="module__icon"><img src="https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/48/000000/external-html-5-is-a-software-solution-stack-that-defines-the-properties-and-behaviors-of-web-page-logo-shadow-tal-revivo.png"/></li>
@@ -109,8 +113,11 @@
           </li>
         </ul>
       </div>
+      </div>
+      
 
-      <a href="" class="button program__join-tibeb">Join TIBEB BootCamp</a>
+      <a href="#" id="join-tibeb"class="button program__join-tibeb">Join TIBEB BootCamp</a>
+      <a href="#" class="see-all-program">SEE THE ALL PROGRAM</a>
     </main>
     <script src="script.js"></script>
   </body>
