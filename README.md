@@ -1,10 +1,12 @@
-# Tibeb-FrontEnd-Bootcamp
-A Three Month Front-End bootcamp website
 ![](https://img.shields.io/badge/Microverse-blueviolet)
+
+# Tibeb-FrontEnd-Bootcamp
+A Three Month Front-End Bootcamp website
+
 
 # Module 1: Tibeb-FrontEnd-Bootcamp (capstone project)
 
-> The project is to set up the portfolio website project and work on the mobile and Desktop version skeleton of the website. And to add mobile menu using javascript.
+> The project is a capstone project for Module-1(portal). I customized the design to a Bootcamp website called Tibeb Front-End BootCamp. The name "Tibeb" is an Amharic word and it means wisdom. I used it as an opportunity to practice the skills that I got in the last four weeks. since the capstone project mimics the real-world scenario it helped me a lot to know what the real-world projects will be.
 
 <p align="center">
   <img src="https://github.com/zmekonnen251/Tibeb-FrontEnd-Bootcamp/blob/mobile-version/assets/desktop.png">
