@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap");
 @import url("http://fonts.cdnfonts.com/css/cocogoose");
+
 * {
   margin: 0;
   padding: 0;
@@ -32,6 +33,7 @@ a {
 .display-none {
   display: none;
 }
+
 /* Style for mobile menu */
 .mobile-menu {
   position: fixed;
@@ -46,25 +48,43 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center;
-
   gap: 40px;
   margin: 30px;
   margin-top: 30px;
 }
+
 .mobile-nav li {
   border-bottom: 2px solid #ec5242;
   padding-bottom: 25px;
   width: 40%;
   text-align: center;
 }
+
+.headline__contact--email {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.headline__contact--email > a {
+  border-bottom: 2px solid #272a31;
+  color: #272a31;
+}
+
 .mobile-nav li a {
   color: #d3d3d3;
   font-size: 40px;
 }
+
+.partners__list li {
+  width: 30vw;
+  padding-bottom: 15px;
+}
+
 .mobile-nav li:first-child {
   border-bottom: none;
   padding-bottom: 0;
 }
+
 .x-icon {
   font-size: 30px;
   border: none;
@@ -78,6 +98,7 @@ a {
   overflow-y: hidden;
   height: 100vh;
 }
+
 .header {
   position: relative;
   padding: 24px 24px;
@@ -88,6 +109,7 @@ a {
   margin-bottom: 0;
   gap: 0;
 }
+
 .back-mobile-head {
   position: absolute;
   top: 0;
@@ -105,15 +127,10 @@ a {
 
 .headline {
   margin-top: 30px;
-  /* height: 100%; */
-}
-
-.headline-about {
-  margin-bottom: 0px;
 }
 
 .headline__greeting {
-  margin-top: 10;
+  margin-top: 10px;
   margin-bottom: 10px;
   font-size: 25px;
   color: #ec5242;
@@ -134,13 +151,10 @@ a {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.headline-about .headline__heading {
-  margin-bottom: 20px;
-}
 
 .headline__description {
   margin-bottom: 40px;
-  margin-left: 0px;
+  margin-left: 0;
   line-height: 26px;
   font-size: 18px;
   box-shadow: 1px 1px 4px 1px #b8b8b8;
@@ -160,6 +174,13 @@ a {
 .headline-about {
   align-items: center;
   height: 100vh;
+  margin-bottom: 0;
+}
+
+.about-logo-border {
+  width: 40px;
+  border-bottom: 1.5px #ec5242 solid;
+  margin-bottom: 15px;
 }
 
 .headline-about .about-logo-border {
@@ -171,21 +192,12 @@ a {
   color: #ec5242;
   background-image: none;
   -webkit-text-fill-color: #ec5242;
+  margin-bottom: 20px;
 }
 
 .headline__contact {
   text-align: center;
   margin-bottom: 10px;
-}
-
-.headline__contact--email {
-  text-align: center;
-  margin-bottom: 30px;
-}
-
-.headline__contact--email > a {
-  border-bottom: 2px solid #272a31;
-  color: #272a31;
 }
 
 .headline__program-time {
@@ -202,7 +214,7 @@ a {
 }
 
 .headline__program-place {
-  margin-bottom: 0px;
+  margin-bottom: 0;
   align-self: flex-end;
   flex-grow: 2;
   line-height: 25px;
@@ -228,6 +240,7 @@ a {
 .curriculum__heading {
   padding: 15px 0;
 }
+
 .heading--border {
   width: 50px;
   border-bottom: 3px #ec5242 solid;
@@ -257,7 +270,6 @@ a {
 }
 
 .module__description {
-  flex: 1fr 0 0;
   font-size: 16px;
   line-height: 20px;
 }
@@ -292,10 +304,17 @@ a {
   font-size: 30px;
 }
 
+footer > div {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
 .featured-speakers div {
   display: flex;
   gap: 25px;
 }
+
 .featured-speakers div ul {
   display: flex;
   flex-direction: column;
@@ -336,6 +355,7 @@ a {
   font-size: 20px;
   box-shadow: 1px 1px 4px 5px #c0bfbf;
 }
+
 #see-more span {
   display: inline-block;
   text-align: center;
@@ -357,11 +377,6 @@ a {
   text-align: center;
 }
 
-.about-logo-border {
-  width: 40px;
-  border-bottom: 1.5px #ec5242 solid;
-  margin-bottom: 15px;
-}
 .tibeb-logo h1 {
   text-align: center;
   padding: 30px;
@@ -407,6 +422,7 @@ a {
   padding: 0 10px;
   font-size: 20px;
 }
+
 .past-bootcamps-border {
   width: 30px;
   border-bottom: 3px #ec5242 solid;
@@ -443,13 +459,8 @@ a {
   justify-content: center;
   text-align: center;
   flex-wrap: wrap;
-  margin-left: 0px;
+  margin-left: 0;
   margin-bottom: 40px;
-}
-
-.partners__list li {
-  width: 30vw;
-  padding-bottom: 15px;
 }
 
 .partners__list li img {
@@ -464,15 +475,10 @@ footer {
   gap: 30px;
 }
 
-footer > div {
-  display: flex;
-  align-items: center;
-  gap: 5px;
-}
-
 footer p {
   font-size: 15px;
 }
+
 @media (max-width: 768px) {
   .top-nav {
     display: none;
@@ -508,6 +514,7 @@ footer p {
 
   .header {
     height: 100vh;
+    padding-top: 100px;
   }
 
   .top-nav {
@@ -553,6 +560,11 @@ footer p {
     color: #ec5242;
     border: 1px solid #272a31;
   }
+
+  .headline__program-time span {
+    font-size: 20px;
+  }
+
   .header__nav--logo a span {
     color: #272a31;
     border: none;
@@ -564,14 +576,10 @@ footer p {
     gap: 80px;
     align-items: center;
   }
+
   .nav li a {
     font-size: 18px;
     color: #272a31;
-  }
-  .header {
-    padding-top: 0;
-    height: 100vh;
-    padding-top: 100px;
   }
 
   .headline {
@@ -592,6 +600,7 @@ footer p {
     font-size: 40px;
     width: max-content;
   }
+
   .headline__description {
     font-size: 17px;
     margin-bottom: 20px;
@@ -600,9 +609,7 @@ footer p {
   .headline__program-time {
     font-size: 34px;
   }
-  .headline__program-time span {
-    font-size: 20px;
-  }
+
   .headline__program-place {
     font-size: 18px;
   }
@@ -646,13 +653,14 @@ footer p {
   }
 
   .headline__contact--email {
-    font-size: 18;
+    font-size: 18px;
     margin-bottom: 10px;
   }
 
   .tibeb-logo {
-    margin-top: 0px;
+    margin-top: 0;
   }
+
   .tibeb-logo h2 {
     font-size: 35px;
   }
@@ -660,9 +668,10 @@ footer p {
   .tibeb-logo p {
     font-size: 21px;
     line-height: 28px;
-    font-weight: 500px;
+    font-weight: 500;
     padding-bottom: 30px;
   }
+
   .tibeb-logo h1 {
     font-size: 40px;
     padding: 80px 100px;
@@ -690,9 +699,11 @@ footer p {
   .curriculum__heading {
     justify-self: center;
   }
+
   .heading--border {
     justify-self: center;
   }
+
   .curriculum > div {
     display: flex;
     justify-content: center;
@@ -729,9 +740,11 @@ footer p {
     line-height: 20px;
     text-align: center;
   }
+
   .program__join-tibeb {
     display: none;
   }
+
   .see-all-program {
     justify-self: center;
     color: #d3d3d3;
@@ -747,6 +760,10 @@ footer p {
     padding: 30px 180px;
   }
 
+  .past-bootcamp-images img {
+    width: 40vw;
+  }
+
   .featured-speakers div img {
     width: auto;
     height: 12rem;
@@ -755,14 +772,12 @@ footer p {
   #see-more {
     width: 30%;
   }
+
   /* About page styles */
 
   .past-bootcamp-images {
     flex-direction: row;
     gap: 40px;
-  }
-  .past-bootcamp-images img {
-    width: 40vw;
   }
 
   .partners-about-desk {
@@ -777,10 +792,12 @@ footer p {
     padding-bottom: 30px;
     height: 45vh;
   }
+
   .partners__heading {
     font-size: 37px;
     text-align: center;
   }
+
   .partners__heading-border {
     text-align: center;
   }
@@ -796,6 +813,7 @@ footer p {
     padding: 40px 30%;
     justify-content: space-between;
   }
+
   footer {
     background-color: #272a31;
     color: white;
