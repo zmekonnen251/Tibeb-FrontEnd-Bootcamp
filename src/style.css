@@ -91,7 +91,7 @@ a {
   color: #d3d3d3;
   text-align: right;
   justify-self: flex-end;
-  margin-left: 300px;
+  margin-left: 50vw;
 }
 
 .no-scroll {
@@ -619,12 +619,13 @@ footer p {
     margin: 0 auto;
     height: 100vh;
     justify-content: center;
+    background-color: white;
   }
 
   .headline-about .headline__greeting {
     margin-top: 30px;
     text-align: center;
-    padding-left: 30%;
+    padding-left: 18%;
   }
 
   .headline__description--about {
@@ -659,6 +660,8 @@ footer p {
 
   .tibeb-logo {
     margin-top: 0;
+    background-color: #ebe9e9;
+    padding: 40px 0;
   }
 
   .tibeb-logo h2 {
@@ -683,6 +686,7 @@ footer p {
 
   .past-bootcamps h3 {
     font-size: 35px;
+    background-color: #ffffff;
   }
 
   .past-bootcamps__description {
