@@ -24,7 +24,7 @@ A Three Month Front-End Bootcamp website
 
 ## Live Demo
 
-[live demo link](https://zmekonnen251.github.io/Tibeb-FrontEnd-Bootcamp/)
+[live demo link](https://zmekonnen251.github.io/Tibeb-FrontEnd-Bootcamp/src/)
 
 ## Loom video
 
